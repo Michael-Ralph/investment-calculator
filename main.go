@@ -11,11 +11,11 @@ func main() {
 	var investmentAmount, years, expectedReturnRate float64
 
 	// Variable inputs
-	fmt.Printf("How much do you want to invest: ")
+	fmt.Print("How much do you want to invest: ")
 	fmt.Scan(&investmentAmount)
-	fmt.Printf("Over how many years do you want to invest: ")
+	fmt.Print("Over how many years do you want to invest: ")
 	fmt.Scan(&years)
-	fmt.Printf("What is your expected return rate: ")
+	fmt.Print("What is your expected return rate: ")
 	fmt.Scan(&expectedReturnRate)
 
 	// Calculations
